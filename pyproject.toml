@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sessionledger"
+version = "0.1.0"
+description = "A replayable multiplayer economy reliability lab"
+requires-python = ">=3.11"
+
+[project.scripts]
+sessionledger = "sessionledger.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sessionledger*"]
