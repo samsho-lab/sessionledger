@@ -79,7 +79,7 @@ tamper-proof against an administrator who can rewrite the database and hashes.
 
 ## Verification
 
-The 15-test suite covers independent-connection concurrency, process restart persistence,
+The 15-test suite covers independent-connection concurrency, database reopen persistence,
 idempotency conflicts, session expiry and renewal, fencing, optimistic versions,
 transaction rollback via an injected database failure, replay repair, journal corruption,
 input validation, and 200 seeded transfers checked against an independent balance model.
